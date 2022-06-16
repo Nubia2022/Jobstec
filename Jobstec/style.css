@@ -1,0 +1,1565 @@
+*{
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: open-sans, sans-serif;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: open-sans;
+	src: url('open-sans.light-webfont.woff');
+	font-family: ablation;
+	src: url("nexa-light-webfont.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+	background-image: url("categoria-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	background: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(1px);
+	background-repeat: no-repeat;
+	height: 84vh;
+	width: auto;
+}
+
+nav{
+	display: flex;
+	margin: 0px;
+	background-color: transparent;
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+.logo{
+	width: 100px;
+	height: 18px;
+	background-color: transparent;
+	margin-right: auto;
+	position: relative;
+	top: 48px;
+	left: 24px;
+}
+
+.Instagram{
+	background-color: transparent;
+}
+
+.icone-instagram{
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	position: relative;
+	top: 47px;
+	right: 50px;
+}
+
+.titulo-pai{
+	font-weight: bold;
+	font-size: 40px;
+	background-color: transparent;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 200px;
+}
+
+.texto{
+	background-color: transparent;
+	font-size: 35px;
+	width: auto;
+	text-align: left;
+	margin: 20px;
+	margin-top: 70px;
+	font-family: ablation, sans-serif;
+	color: rgba(255, 255, 255, 0.678);
+}
+
+.Certificacoes{
+	background: rgba(0, 0, 0, 0.575);
+	backdrop-filter: blur(100px);
+	padding: 20px;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 10px;
+	border: 1px solid white;
+	font-family: ablation, sans-serif;
+	position: relative;
+	top: 50px;
+	font-weight: bold
+}
+
+.footer{
+	display: flex;
+	width: 50px;
+	background-color: black;
+}
+
+.section-footer{
+	background-color: black;
+	position: relative;
+	top: 1px;
+}
+
+.titulo{
+	display: inline;
+	font-size: 23px;
+	margin: 20px;
+	position: relative;
+	top: 30px;
+	margin-right: 80px;
+	background-color: black;
+}
+
+.numero1{
+	font-size: 18px;
+	display: inline;
+	position: relative;
+	top: 30px;
+	margin-right: 5px;
+}
+
+.traco{
+	display: inline;
+	font-size: 18px;
+	position: relative;
+	top: 30px;
+	margin-right: 5px;
+}
+
+.numero2{
+	font-size: 18px;
+	display: inline;
+	position: relative;
+	top: 30px;
+	margin-right: 40px;
+}
+
+.prev{
+	display: inline;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 35px;
+}
+
+.next{
+	display: inline;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 35px;
+}
+
+/*Responsividade para telas de 353px*/
+@media screen and (min-width: 353px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 30px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 30px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 30px;
+		width: 280px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 70px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 15px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 28px;
+		margin-right: 60px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 26px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 26px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 26px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 28px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 28px;
+	}
+
+}
+
+/*Responsividade para telas de 375px*/
+@media screen and (min-width: 375px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 25px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 20px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 27px;
+		width: 280px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 60px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 15px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 22px;
+		margin-right: 80px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 22px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 20px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 22px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 25px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 25px;
+	}
+
+}
+
+/*Responsividade para telas de 384px*/
+@media screen and (min-width: 384px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 25px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 30px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 27px;
+		width: 280px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 70px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 15px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 22px;
+		margin-right: 90px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 22px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 20px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 22px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 25px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 25px;
+	}
+
+}
+
+/*Responsividade para telas de 390px*/
+@media screen and (min-width: 390px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 35px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 20px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 35px;
+		width: 280px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 60px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 80px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 412px*/
+@media screen and (min-width: 412px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 30px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 20px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 30px;
+		width: 280px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 60px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 110px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 540px*/
+@media screen and (min-width: 540px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 90px;
+		height: 15px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 15px;
+		height: 15px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 35px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 20px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 30px;
+		width: auto;
+		text-align: left;
+		margin: 20px;
+		margin-top: 60px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 12px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 40px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 20px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 240px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 15px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 15px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 768px*/
+@media screen and (min-width: 768px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 50px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 40px;
+		width: auto;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 30px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 430px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 820px*/
+@media screen and (min-width: 820px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 50px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 50px;
+		width: 500px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 30px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 480px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 912px*/
+@media screen and (min-width: 912px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 60px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 60px;
+		width: 700px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 35px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 20px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 560px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 1024px*/
+@media screen and (min-width: 1024px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 30px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 30px;
+		width: 700px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 15px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 690px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 1280px*/
+@media screen and (min-width: 1280px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 50px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 50px;
+		width: 800px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 15px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 940px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
+
+/*Responsividade para telas de 1280px*/
+@media screen and (min-width: 1300px){
+
+	nav{
+		display: flex;
+		margin: 0px;
+		background-color: transparent;
+		height: 100px;
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		width: 120px;
+		height: 20px;
+		background-color: transparent;
+		margin-right: auto;
+		position: relative;
+		top: 48px;
+	}
+	.icone-instagram{
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		position: relative;
+		top: 47px;
+		right: 50px;
+	}
+
+	.titulo-pai{
+		font-weight: bold;
+		font-size: 40px;
+		background-color: transparent;
+		position: relative;
+		left: 20px;
+		top: 40px;
+		width: 200px;
+	}
+	
+	.texto{
+		background-color: transparent;
+		font-size: 40px;
+		width: 800px;
+		text-align: left;
+		margin: 20px;
+		margin-top: 80px;
+		font-family: ablation, sans-serif;
+		color: rgba(255, 255, 255, 0.678);
+	}
+
+	.Certificacoes{
+		background: rgba(0, 0, 0, 0.575);
+		backdrop-filter: blur(100px);
+		padding: 20px;
+		margin: 20px;
+		text-decoration: none;
+		font-size: 15px;
+		border-radius: 10px;
+		border: 1px solid white;
+		font-family: ablation, sans-serif;
+		position: relative;
+		top: 60px;
+		font-weight: bold
+	}
+	
+	.titulo{
+		display: inline;
+		font-size: 25px;
+		margin: 20px;
+		position: relative;
+		top: 33px;
+		margin-right: 1020px;
+		background-color: black;
+	}
+	
+	.numero1{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 5px;
+	}
+	
+	.traco{
+		display: inline;
+		font-size: 18px;
+		position: relative;
+		top: 32px;
+		margin-right: 5px;
+	}
+	
+	.numero2{
+		font-size: 18px;
+		display: inline;
+		position: relative;
+		top: 33px;
+		margin-right: 40px;
+	}
+	
+	.prev{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
+	}
+	
+	.next{
+		display: inline;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		top: 35px;
+	}
+
+}
